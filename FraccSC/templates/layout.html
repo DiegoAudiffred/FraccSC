@@ -1,0 +1,27 @@
+{% load static %}
+<!doctype html>
+<html lang="es">
+
+<head>
+    <title>SalchiisPage</title>
+    <meta charset="utf-8">
+
+    {% block style %}
+
+    {% endblock %}
+</head>
+
+<body class="d-flex flex-column min-vh-100 bg-cuarto fnBubbleSansRegular">
+
+    {% include 'layouts/navbar.html' %}
+
+
+
+    <!-- Footer pegado abajo con mt-auto -->
+    <footer class="mt-auto">
+    </footer>
+
+    {% block script %}{% endblock %}
+</body>
+
+</html>
